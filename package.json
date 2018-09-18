@@ -1,26 +1,30 @@
 {
-    "name": "cloudAI",
-    "version": "0.0.1",
-    "description": "Hybrid cloud service comparator",
-    "contributors": "nirojan,ayeshmantha",
-    "main": "lib/index.js",
-    "repository": "https://github.com/cloudspex/cloudAI",
-    "author": "cloudspex",
-    "license": "Apache-2.0",
-    "dependencies": {
-      "aws-sdk": "^2.216.1",
-      "config": "^1.26.1",
-      "google-cloud": "^0.54.0"
-    },
-    "keywords": [
-      "cloudAI",
-      "reactJS",
-      "nodeJS",
-      "AI"
-    ],
-    "bugs": {
-      "url": "https://github.com/cloudspex/cloudAI/issues"
-    },
-    "homepage": "https://github.com/cloudspex/cloudAI#readme"
-  }
-  
+  "name": "cloudAI",
+  "version": "0.0.1",
+  "description": "Hybrid cloud service comparator",
+  "contributors": "nirojan,ayeshmantha",
+  "main": "lib/index.js",
+  "repository": "https://github.com/cloudspex/cloudAI",
+  "author": "cloudspex",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "aws-sdk": "^2.216.1",
+    "config": "^1.26.1",
+    "google-cloud": "^0.54.0",
+    "express": "^4.15.4",
+    "body-parser": "^1.18.2"
+  },
+  "keywords": [
+    "cloudAI",
+    "reactJS",
+    "nodeJS",
+    "AI"
+  ],
+  "scripts": {
+    "start": "node app.js"
+  },
+  "bugs": {
+    "url": "https://github.com/cloudspex/cloudAI/issues"
+  },
+  "homepage": "https://github.com/cloudspex/cloudAI#readme"
+}
